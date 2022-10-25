@@ -5,13 +5,13 @@ using namespace std;
 
 int main(){
 
-int n
+   
+int n;
+cout<<"Number of Lines: ";
 cin>>n;
-char i='I am the Greatest';
-
-while(i<=n){
-    cout<<i<<endl;
-}
+for(int i=1;i<=n;i++){
+    cout<<( "I am the greatest")<<i<<endl;
+   }
 
   
 }
